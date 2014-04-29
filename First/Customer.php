@@ -37,7 +37,6 @@ class Customer
 
     public function statement()
     {
-        $frequentRenterPoints = 0;
         $rentals = $this->_rentals->getArrayCopy();
         $result = 'Учёт аренды для ' . $this->getName() . '\n';
 
